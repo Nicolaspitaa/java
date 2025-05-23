@@ -20,6 +20,9 @@ var total = realParaDolar (valorreal, cotacao)
 
 alert("O valor do real é R$: "+ valorreal +"O valor em dolar é U$: "+total)
 
-function alertahello(){
-    alert("Ola Pessoal");
+function celsius(valorf){
+    return(5/9) * (valorf - 32);
+
 }
+
+var x = celsius(77);
